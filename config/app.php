@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Facade;
 
 return [
@@ -177,6 +178,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\UserServiceProvider::class,
+        App\Providers\TodolistServiceProvider::class,
 
     ],
 
